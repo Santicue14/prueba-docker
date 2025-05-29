@@ -34,7 +34,7 @@ cd proyecto
 
 2. Iniciar los servicios con Docker Compose:
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 
 ## Servicios
