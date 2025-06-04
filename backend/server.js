@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
   res.json({ mensaje: 'Hola desde la API!' });
 });
 
-app.listen(4000, () => {
+app.listen(4000, '0.0.0.0', () => {
   console.log('API escuchando en puerto 4000');
 });
